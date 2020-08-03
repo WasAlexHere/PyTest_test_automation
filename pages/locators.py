@@ -1,6 +1,7 @@
 from selenium.webdriver.common.by import By
 
 class MainPageLocators():
+
     # login link:
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
 
@@ -14,3 +15,8 @@ class LoginPagesLocators():
     ID_REGISTRATION_EMAIL = (By.CSS_SELECTOR, "#id_registration-email")
     ID_REGISTRATION_PASSWORD1 = (By.CSS_SELECTOR, "#id_registration-password1")
     ID_REGISTRATION_PASSWORD2 = (By.CSS_SELECTOR, "#id_registration-password2")
+
+class ItemPagesLocators():
+
+    # add to basket button:
+    ADD_TO_BASKET_BUTTON = (By.XPATH,"//*[@id='add_to_basket_form']/button")
